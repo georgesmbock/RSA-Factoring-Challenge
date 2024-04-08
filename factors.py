@@ -16,12 +16,12 @@ for line_str in f:
     n = 2
     line_int = int(line_str)
     reste_modulo = line_int % n
-    #while reste_modulo == 0:
-    #r = line_int // n
+    while reste_modulo == 0:
+        r = line_int // n
     if (reste_modulo == 0):
         r = line_int // n
         print(f"{line_int}={r}*{n}")
-        #break
+        break
             #n += 1
         #continue
     #else:
