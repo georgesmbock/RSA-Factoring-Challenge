@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import sys
+import time
 
 #n = 2
 if len(sys.argv) == 1:
