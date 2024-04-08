@@ -18,7 +18,7 @@ for line_str in f:
     reste_modulo = line_int % n
     while reste_modulo == 0:
         r = line_int // n
-    if (reste_modulo == 0):
+    #if (reste_modulo == 0):
         r = line_int // n
         print(f"{line_int}={r}*{n}")
         break
